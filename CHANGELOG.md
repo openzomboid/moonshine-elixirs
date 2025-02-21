@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Russian tooltips.
 - Fixed recipes with WildEggs and Salt. Please remove file moonshine-recipes.json or moonshine-recipes-b42.json file from Zomboid/Lua directory before update mod.
 
-## Changed
+### Changed
 - Changed recipe "Make Hasty Herring" - count of Pikes decreased from 10 to 5.
 
 ## [v0.12.0] - 2025-02-17
