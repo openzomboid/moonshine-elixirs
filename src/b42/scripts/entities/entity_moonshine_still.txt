@@ -1,0 +1,39 @@
+module Base {
+    xuiSkin default {
+        entity ES_MoonshineStill {
+            LuaWindowClass = ISEntityWindow,
+            DisplayName    = MoonshineStill,
+        }
+    }
+
+    entity MoonshineStill {
+        component SpriteConfig {
+            face S {
+                layer {
+                    row = MoonshineStill_0 MoonshineStill_1,
+                }
+            }
+            face E {
+                layer {
+                    row = MoonshineStill_3,
+                    row = MoonshineStill_2,
+                }
+            }
+        }
+        
+        component CraftRecipe {
+            OnAddToMenu   = MoonshineStillBuildEnabled,
+            time          = 10,
+            SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:10,
+            category      = Furniture,
+            tags          = Carpentry;Furniture,
+            ToolTip       = Tooltip_craft_MoonshineStillDesc,
+            inputs {
+                item 1 tags[Hammer] mode:keep flags[Prop1],
+                item 6 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

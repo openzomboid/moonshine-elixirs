@@ -1,0 +1,10 @@
+ContextMenu_TR = {
+    ContextMenu_Drink_GreedySalvation = "Açgözlü Kurtuluş İç",
+    ContextMenu_Drink_ExclusiveAlcohol = "Seçkin alkol iç",
+    ContextMenu_Moonshine = "Kaçak Işığı",
+    ContextMenu_MoonshineStill = "Hala Kaçak Işığı",
+    ContextMenu_MoonshineStill_Description = "Greedy Bastards ay ışığı imbikleri, şeker veya çeşitli tahılları baz olarak kullanarak geleneksel kaçak içki veya diğer alkollü içecekleri yapmak için kullanılan, bakır veya paslanmaz çelikten yapılmış imbiklerdir",
+    ContextMenu_DistillAlcohol = "Alkolü Damıt",
+    ContextMenu_DistillExclusiveAlcohol = "Özel Alkolü Damıt",
+    ContextMenu_MakeAlcohol = "Yap",
+}

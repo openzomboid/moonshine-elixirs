@@ -1,0 +1,17 @@
+Items_EN = {
+    DisplayName_MoonshineStill = "Moonshine Still",
+	DisplayName_ExclusiveRecipe = "Moonshine Recipe Book",
+
+	DisplayName_HastyHerring = "Hasty Herring",
+	DisplayName_DoubleHastyHerring = "Double Hasty Herring",
+	DisplayName_GreedyHammer = "Greedy Hammer",
+	DisplayName_DoubleGreedyHammer = "Double Greedy Hammer",
+	DisplayName_GreedyAxe = "Greedy Axe",
+	DisplayName_DoubleGreedyAxe = "Double Greedy Axe",
+	DisplayName_StrayBullet = "Stray Bullet",
+	DisplayName_SlipperyFish = "Slippery Fish",
+	DisplayName_SolidAdventurer = "Solid Adventurer",
+	DisplayName_SlenderDoe = "Slender Doe",
+	DisplayName_NicotineOverdose = "Nicotine Overdose",
+	DisplayName_GreedySalvation = "Greedy Salvation",
+}

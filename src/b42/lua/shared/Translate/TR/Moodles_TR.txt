@@ -1,0 +1,3 @@
+Moodles_TR = {
+    Moodles_nothing_happened = "Hiçbir şey olmadı",
+}

@@ -1,0 +1,17 @@
+Items_RU = {
+    DisplayName_MoonshineStill = "Самогонный аппарат",
+    DisplayName_ExclusiveRecipe = "Книга рецептов самогона",
+
+	DisplayName_HastyHerring = "Быстрая Селедка",
+	DisplayName_DoubleHastyHerring = "Двойная Быстрая Селедка",
+	DisplayName_GreedyHammer = "Жадный Молот",
+	DisplayName_DoubleGreedyHammer = "Двойной Жадный Молот",
+	DisplayName_GreedyAxe = "Жадная Секира",
+	DisplayName_DoubleGreedyAxe = "Двойная Жадная Секира",
+	DisplayName_StrayBullet = "Шальная Пуля",
+	DisplayName_SlipperyFish = "Скользкий Тип",
+	DisplayName_SolidAdventurer = "Солидный Авантюрист",
+	DisplayName_SlenderDoe = "Стройная Лань",
+    DisplayName_NicotineOverdose = "Никотиновая Передозировка",
+    DisplayName_GreedySalvation = "Жадное Спасение",
+}

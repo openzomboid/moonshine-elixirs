@@ -1,0 +1,9 @@
+Sandbox_TR = {
+    Sandbox_Permanent = "Kalıcı Efektli İçecekler",
+    Sandbox_KeepExperience = "Deneyimi Koru (Anticheat Type15 kapatılmalıdır)",
+    Sandbox_SlenderDoeSetWeight = "Slender Doe ağırlığı ayarlar",
+    Sandbox_CanBuildMoonshineStill = "Hala kaçak içki yapımına izin ver",
+    Sandbox_AllowBrewingVanillaAlcohol = "Vanilya alkolünün demlenmesine izin ver",
+    Sandbox_AllowBrewingExclusiveAlcohol = "Özel alkol hazırlanmasına izin ver",
+    Sandbox_ExclusiveRecipeInZombiesLootChance = "Tüm Zombies ganimetlerinde Moonshine Tarif Kitabının ortaya çıkma şansı",
+}

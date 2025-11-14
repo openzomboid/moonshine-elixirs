@@ -1,0 +1,9 @@
+Sandbox_RU = {
+    Sandbox_Permanent = "Permanent Effects Drinks",
+    Sandbox_KeepExperience = "Сохранить накопленный опыт (требуется отключить античит Type15)",
+    Sandbox_SlenderDoeSetWeight = "Стройная Лань устанавливает вес",
+    Sandbox_CanBuildMoonshineStill = "Разрешить строить самогонный аппарат",
+    Sandbox_AllowBrewingVanillaAlcohol = "Разрешить приготавливать ванильный алкоголь",
+    Sandbox_AllowBrewingExclusiveAlcohol = "Разрешить приготавливать эксклюзивный алкоголь",
+    Sandbox_ExclusiveRecipeInZombiesLootChance = "Шанс появления Книги Рецептов Самогона в зомби",
+}

@@ -1,0 +1,18 @@
+Tooltip_ES = {
+    Tooltip_item_ExclusiveRecipe = "Contiene recetas de bebidas exclusivas de Greedy Bastard. Es un ingrediente",
+    Tooltip_craft_MoonshineStillDesc = "Un alambique de alcohol ilegal con el que se pueden realizar trabajos manuales.",
+    Tooltip_brew_FootNote = "Utilice la botella adecuada para la bebida",
+
+    Tooltip_item_HastyHerring = "Aumenta permanentemente carrera en 1",
+    Tooltip_item_DoubleHastyHerring = "Aumenta permanentemente el estado físico en 1, carrera en 1",
+    Tooltip_item_GreedyHammer = "Aumenta permanentemente la precisión con armas contundentes en 1",
+    Tooltip_item_DoubleGreedyHammer = "Aumenta permanentemente la fuerza en 1, la precisión con armas contundentes en 1",
+    Tooltip_item_GreedyAxe = "Aumenta permanentemente la precisión con armas de hoja en 1",
+    Tooltip_item_DoubleGreedyAxe = "Aumenta permanentemente la fuerza en 1, la precisión con armas de hoja en 1",
+    Tooltip_item_StrayBullet = "Aumenta permanentemente la puntería con armas de fuego en 1",
+    Tooltip_item_SlipperyFish = "Incrementa permanentemente Ágil en 1",
+    Tooltip_item_SolidAdventurer = "Incrementa permanentemente Mantenimiento en 1",
+    Tooltip_item_SlenderDoe = "Establece el peso del personaje a 80 kg",
+    Tooltip_item_NicotineOverdose = "La mejor manera de dejar de fumar",
+    Tooltip_item_GreedySalvation = "Cura el virus zombie",
+}

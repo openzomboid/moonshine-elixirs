@@ -1,0 +1,19 @@
+Tooltip_RU = {
+    Tooltip_craft_MoonshineStillDesc = "Самогонный аппарат, на котором можно что-то изготовить",
+    Tooltip_item_ExclusiveRecipe = "Содержит рецепты эксклюзивных напитков Greedy Bastard. Является ингредиентом",
+    Tooltip_brew_FootNote = "Используется соответствующая напитку бутылка",
+
+    Tooltip_item_HastyHerring = "Перманентно повышает скорость бега на 1",
+    Tooltip_item_DoubleHastyHerring = "Перманентно повышает скорость бега и фитнес на 1",
+    Tooltip_item_GreedyHammer = "Перманентно повышает навык длинного дробящего оружия на 1",
+    Tooltip_item_DoubleGreedyHammer = "Перманентно повышает навык длинного дробящего оружия и силу на 1",
+    Tooltip_item_GreedyAxe = "Перманентно повышает навык топоров на 1",
+    Tooltip_item_DoubleGreedyAxe = "Перманентно повышает навык топоров и силу на 1",
+    Tooltip_item_StrayBullet = "Перманентно повышает точность огнестрельного оружия на 1",
+    Tooltip_item_SlipperyFish = "Перманентно повышает проворность на 1",
+    Tooltip_item_SolidAdventurer = "Перманентно повышает прочность на 1",
+    Tooltip_item_SlenderDoe = "Устанавливает вес персонажа в 80 кг.",
+    Tooltip_item_NicotineOverdose = "Лучший способ бросить курить",
+    Tooltip_item_GreedySalvation = "Лечит зомби-вирус",
+}
+

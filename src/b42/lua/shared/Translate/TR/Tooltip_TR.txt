@@ -1,0 +1,18 @@
+Tooltip_TR = {
+    Tooltip_item_ExclusiveRecipe = "Greedy Bastard'ın özel içecekleri için tarifler içerir. Bir içeriktir",
+    Tooltip_craft_MoonshineStillDesc = "Üzerinde işlenerek kullanılabilen bir Moonshine Damıtma Cihazı.",
+    Tooltip_brew_FootNote = "İçecek için uygun şişe kullanıldı",
+
+    Tooltip_item_HastyHerring = "Sprint'i kalıcı olarak 1 artırır"
+    Tooltip_item_DoubleHastyHerring = "Fitness ve Koşma yeteneğinizi kalıcı olarak 1 artttırır"
+    Tooltip_item_GreedyHammer = "Kör silah vuruş doğruluğunuzu kalıcı olarak 1 arttırır"
+    Tooltip_item_DoubleGreedyHammer = "Gücü 1, Kör silah vuruş doğruluğunuzu kalıcı olarak 1 arttırır"
+    Tooltip_item_GreedyAxe = "Bıçak Doğruluğunu kalıcı olarak 1 artırır"
+    Tooltip_item_DoubleGreedyAxe = "Gücü 1, Bıçak vuruş doğruluğunuzu kalıcı olarak 1 arttırır"
+    Tooltip_item_StrayBullet = "Kalıcı olarak ateşli silah nişanlamanızı 1 arttırır"
+    Tooltip_item_SlipperyFish = "Nimble'ı kalıcı olarak 1 artırır",
+    Tooltip_item_SolidAdventurer = "Bakımı kalıcı olarak 1 artırır",
+    Tooltip_item_SlenderDoe = "Karakterin kilosunu 80kg olarak değiştirir",
+    Tooltip_item_NicotineOverdose = "Sigaradan kurtulmanın en iyi yolu",
+    Tooltip_item_GreedySalvation = "Zombi Virüsünü İyileştirir",
+}

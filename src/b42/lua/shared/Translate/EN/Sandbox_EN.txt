@@ -1,0 +1,9 @@
+Sandbox_EN = {
+    Sandbox_Permanent = "Permanent Effects Drinks",
+    Sandbox_KeepExperience = "Keep Experience (Anticheat Type15 must be turned off)",
+    Sandbox_SlenderDoeSetWeight = "Slender Doe sets weight",
+    Sandbox_CanBuildMoonshineStill = "Allow to build moonshine still",
+    Sandbox_AllowBrewingVanillaAlcohol = "Allow to brew Vanilla alcohol",
+    Sandbox_AllowBrewingExclusiveAlcohol = "Allow to brew Exclusive alcohol",
+    Sandbox_ExclusiveRecipeInZombiesLootChance = "Chance for spawn Moonshine Recipe Book in Zombies loot",
+}

@@ -1,0 +1,10 @@
+ContextMenu_EN = {
+	ContextMenu_Drink_GreedySalvation = "Drink Greedy Salvation",
+	ContextMenu_Drink_ExclusiveAlcohol = "Drink exclusive alcohol",
+	ContextMenu_Moonshine = "Moonshine",
+	ContextMenu_MoonshineStill = "Moonshine Still",
+	ContextMenu_MoonshineStill_Description = "Greedy Bastards moonshine stills are copper or stainless steel built pot stills that are used to make traditional moonshine or other spirits using sugar or assorted grains as a base",
+	ContextMenu_DistillAlcohol = "Distill Alcohol",
+	ContextMenu_DistillExclusiveAlcohol = "Distill Exclusive Alcohol",
+	ContextMenu_MakeAlcohol = "Make",
+}

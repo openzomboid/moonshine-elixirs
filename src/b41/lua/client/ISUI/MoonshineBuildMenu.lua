@@ -5,7 +5,7 @@
 --
 
 -- MoonshineBuildMenu contains build options.
--- TODO: Remove after release b42 on stable.
+-- TODO: Remove file after release b42 on stable.
 MoonshineBuildMenu = {}
 
 -- doContextMenu adds "Build Moonshine" option to context menu.

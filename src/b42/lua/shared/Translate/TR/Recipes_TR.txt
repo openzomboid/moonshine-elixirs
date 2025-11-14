@@ -1,0 +1,3 @@
+Recipes_TR = {
+    Recipe_Drink_Exclusive_Alcohol = "Seçkin alkol iç",
+}

@@ -1,0 +1,3 @@
+Recipes_ES = {
+    Recipe_Drink_Exclusive_Alcohol = "Bebida alcohólica exclusiva",
+}

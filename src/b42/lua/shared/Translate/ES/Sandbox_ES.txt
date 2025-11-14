@@ -1,0 +1,9 @@
+Sandbox_ES = {
+    Sandbox_Permanent = "Permanent Effects Drinks",
+    Sandbox_KeepExperience = "Mantener la experiencia",
+    Sandbox_SlenderDoeSetWeight = "Slender Doe establece el peso",
+    Sandbox_CanBuildMoonshineStill = "Permitir construir alcohol ilegal todavía",
+    Sandbox_AllowBrewingVanillaAlcohol = "Deje reposar alcohol de vainilla",
+    Sandbox_AllowBrewingExclusiveAlcohol = "Dejar reposar Alcohol exclusivo",
+    Sandbox_ExclusiveRecipeInZombiesLootChance = "Posibilidad de generar un libro de recetas de Moonshine en todo el botín de zombies",
+}

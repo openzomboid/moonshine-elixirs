@@ -1,0 +1,3 @@
+Moodles_EN = {
+    Moodles_nothing_happened = "Nothing happened",
+}

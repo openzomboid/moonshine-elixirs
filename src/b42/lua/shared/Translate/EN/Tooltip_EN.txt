@@ -1,0 +1,18 @@
+Tooltip_EN = {
+    Tooltip_craft_MoonshineStillDesc = "A Moonshine Still which can be crafted on.",
+    Tooltip_item_ExclusiveRecipe = "Contains recipes for Greedy Bastard's exclusive drinks. Is an ingredient",
+    Tooltip_brew_FootNote = "Used the appropriate bottle for the drink",
+
+    Tooltip_item_HastyHerring = "Permanently increases Sprinting by 1",
+    Tooltip_item_DoubleHastyHerring = "Permanently increases Fitness by 1, Sprinting by 1",
+    Tooltip_item_GreedyHammer = "Permanently increases Long Blunt skill by 1",
+    Tooltip_item_DoubleGreedyHammer = "Permanently increases Strength by 1, Long Blunt skill by 1",
+    Tooltip_item_GreedyAxe = "Permanently increases Axe skill by 1",
+    Tooltip_item_DoubleGreedyAxe = "Permanently increases Strength by 1, Axe skill by 1",
+    Tooltip_item_StrayBullet = "Permanently increases Firearm Aiming by 1",
+    Tooltip_item_SlipperyFish = "Permanently increases Nimble by 1",
+    Tooltip_item_SolidAdventurer = "Permanently increases Maintenance by 1",
+    Tooltip_item_SlenderDoe = "Sets the character's weight to 80 kg",
+    Tooltip_item_NicotineOverdose = "The best way to quit smoking",
+    Tooltip_item_GreedySalvation = "Cures Zombie Virus",
+}

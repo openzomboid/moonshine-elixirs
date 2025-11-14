@@ -1,0 +1,3 @@
+Moodlets_RU = {
+    Moodles_nothing_happened = "Ничего не произошло",
+}

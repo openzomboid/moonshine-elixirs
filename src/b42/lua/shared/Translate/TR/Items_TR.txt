@@ -1,0 +1,17 @@
+Items_TR = {
+    DisplayName_MoonshineStill = "Ay Işığı Hala",
+	DisplayName_ExclusiveRecipe = "Ay Işığı Tarif Kitabı",
+
+    DisplayName_HastyHerring = "Aceleci Balık",
+    DisplayName_DoubleHastyHerring = "İkili Aceleci Balık",
+    DisplayName_GreedyHammer = "Doyumsuz Çekiç",
+    DisplayName_DoubleGreedyHammer = "İkili Doyumsuz Çekiç",
+    DisplayName_GreedyAxe = "Doyumsuz Balta",
+    DisplayName_DoubleGreedyAxe = "İkili Doyumsuz Balta",
+    DisplayName_StrayBullet = "Yorgun Mermi",
+    DisplayName_SlipperyFish = "Kaygan Balık",
+    DisplayName_SolidAdventurer = "Sağlam Maceracı",
+    DisplayName_SlenderDoe = "İnce Doe",
+    DisplayName_NicotineOverdose = "Nikotin Aşırıdoz",
+    DisplayName_GreedySalvation = "Açgözlü Kurtuluş",
+}

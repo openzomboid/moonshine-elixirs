@@ -1,0 +1,10 @@
+ContextMenu_RU = {
+	ContextMenu_Drink_GreedySalvation = "Выпить Жадное Спасение",
+	ContextMenu_Drink_ExclusiveAlcohol = "Пить эксклюзивный алкоголь",
+    ContextMenu_Moonshine = "Самогон",
+    ContextMenu_MoonshineStill = "Самогонный аппарат",
+    ContextMenu_MoonshineStill_Description = "Самогонные аппараты Greedy Bastard представляют собой перегонные емкости из меди или нержавеющей стали, которые используются для приготовления традиционного самогона или других спиртных напитков с использованием сахара или различных зерен в качестве основы",
+    ContextMenu_DistillAlcohol = "Перегнать алкоголь",
+    ContextMenu_DistillExclusiveAlcohol = "Перегнать 'эксклюзивный' алкоголь",
+    ContextMenu_MakeAlcohol = "Приготовить",
+}

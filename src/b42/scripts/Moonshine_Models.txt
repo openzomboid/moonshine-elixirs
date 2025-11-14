@@ -1,0 +1,73 @@
+module Base {
+    model HastyHerring {
+        mesh    = WorldItems/HastyHerring,
+        scale   = 0.35,
+        texture = WorldItems/Texture_HastyHerring,
+    }
+
+    model DoubleHastyHerring {
+        mesh    = WorldItems/DoubleHastyHerring,
+        scale   = 0.35,
+        texture = WorldItems/Texture_DoubleHastyHerring,
+    }
+
+    model GreedyHammer {
+        mesh    = WorldItems/GreedyHammer,
+        scale   = 0.35,
+        texture = WorldItems/Texture_GreedyHammer,
+    }
+
+    model DoubleGreedyHammer {
+        mesh    = WorldItems/DoubleGreedyHammer,
+        scale   = 0.35,
+        texture = WorldItems/Texture_DoubleGreedyHammer,
+    }
+
+    model GreedyAxe {
+        mesh    = WorldItems/GreedyAxe,
+        scale   = 0.35,
+        texture = WorldItems/Texture_GreedyAxe,
+    }
+
+    model DoubleGreedyAxe {
+        mesh    = WorldItems/DoubleGreedyAxe,
+        scale   = 0.35,
+        texture = WorldItems/Texture_DoubleGreedyAxe,
+    }
+
+    model StrayBullet {
+        mesh    = WorldItems/StrayBullet,
+        scale   = 0.35,
+        texture = WorldItems/Texture_StrayBullet,
+    }
+
+    model SlipperyFish {
+        mesh    = WorldItems/SlipperyFish,
+        scale   = 0.35,
+        texture = WorldItems/Texture_SlipperyFish,
+    }
+
+    model SolidAdventurer {
+        mesh    = WorldItems/SolidAdventurer,
+        scale   = 0.35,
+        texture = WorldItems/Texture_SolidAdventurer,
+    }
+
+    model SlenderDoe {
+        mesh    = WorldItems/SlenderDoe,
+        scale   = 0.35,
+        texture = WorldItems/Texture_SlenderDoe,
+    }
+
+    model NicotineOverdose {
+        mesh    = WorldItems/NicotineOverdose,
+        scale   = 0.35,
+        texture = WorldItems/Texture_NicotineOverdose,
+    }
+
+    model GreedySalvation {
+        mesh    = WorldItems/GreedySalvation,
+        scale   = 0.35,
+        texture = WorldItems/Texture_GreedySalvation,
+    }
+}

@@ -1,0 +1,10 @@
+ContextMenu_ES = {
+	ContextMenu_Drink_GreedySalvation = "Beber Codicioso Salvación",
+	ContextMenu_Drink_ExclusiveAlcohol = "Bebida alcohólica exclusiva",
+	ContextMenu_Moonshine = "Luz de la luna",
+	ContextMenu_MoonshineStill = "Todavía luz de la luna",
+	ContextMenu_MoonshineStill_Description = "Los alambiques de licor de luna Greedy Bastards son alambiques de cobre o acero inoxidable que se utilizan para hacer licor de luna tradicional u otros licores utilizando azúcar o granos variados como base",
+	ContextMenu_DistillAlcohol = "Destilar alcohol",
+	ContextMenu_DistillExclusiveAlcohol = "Destilar alcohol exclusivo",
+	ContextMenu_MakeAlcohol = "Hacer",
+}

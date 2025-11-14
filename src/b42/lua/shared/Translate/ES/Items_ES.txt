@@ -1,0 +1,17 @@
+Items_ES = {
+    DisplayName_MoonshineStill = "Todavía luz de la luna",
+    DisplayName_ExclusiveRecipe = "Libro de recetas de alcohol ilegal",
+
+    DisplayName_HastyHerring = "Arenque apresurado",
+    DisplayName_DoubleHastyHerring = "Doble arenque apresurado",
+    DisplayName_GreedyHammer = "Martillo codicioso",
+    DisplayName_DoubleGreedyHammer = "Doble martillo codicioso",
+    DisplayName_GreedyAxe = "Hacha codiciosa",
+    DisplayName_DoubleGreedyAxe = "Doble hacha codiciosa",
+    DisplayName_StrayBullet = "Bala perdida",
+    DisplayName_SlipperyFish = "Pescado resbaladizo",
+    DisplayName_SolidAdventurer = "Aventurero sólido",
+    DisplayName_SlenderDoe = "Tipo delgado",
+    DisplayName_NicotineOverdose = "Sobredosis de nicotina",
+    DisplayName_GreedySalvation = "Salvación codiciosa",
+}
