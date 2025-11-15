@@ -95,13 +95,19 @@ function compress_release() {
   local dir_workshop=${RELEASE_DIR_WORKSHOP}
 
   cd "${dir_workshop}/Contents/mods/" && {
-    tar -zcvf "../../../${RELEASE_NAME}.tar.gz" "${MOD_NAME}"
-    zip -r "../../../${RELEASE_NAME}.zip" "${MOD_NAME}"
+    tar -zcvf "../../../${RELEASE_NAME}_b41.tar.gz" "${MOD_NAME}"
+    zip -r "../../../${RELEASE_NAME}_b41.zip" "${MOD_NAME}"
+
+    tar -zcvf "../../../${RELEASE_NAME}_b42.tar.gz" "${MOD_NAME}_b42"
+    zip -r "../../../${RELEASE_NAME}_b42.zip" "${MOD_NAME}_b42"
   }
 
   cd ../../../ && {
-    md5sum "${RELEASE_NAME}.tar.gz" >> checksum.txt;
-    md5sum "${RELEASE_NAME}.zip" >> checksum.txt;
+    md5sum "${RELEASE_NAME}_b41.tar.gz" >> checksum.txt;
+    md5sum "${RELEASE_NAME}_b41.zip" >> checksum.txt;
+
+    md5sum "${RELEASE_NAME}_b42.tar.gz" >> checksum.txt;
+    md5sum "${RELEASE_NAME}_b42.zip" >> checksum.txt;
     cd ../../;
   }
 }
