@@ -1,6 +1,8 @@
 name=Permanent Effects Drinks Test
 id=PermanentEffectsDrinksTest
+modversion=0.12.2
 description=Adds drinks with a permanent effect
 poster=poster.png
+tags=Build 42
 tiledef=MoonshineStill 515
 pack=MoonshineStill
