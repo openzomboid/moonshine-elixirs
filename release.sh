@@ -41,6 +41,8 @@ function make_release_legacy() {
       ;;
   esac
 
+  sed -i -r "s/tags=Build 42/tags=Build 41/g" "${dir_mod_home}/mod.info"
+
   cp workshop/preview.png "${dir_workshop}/preview.png"
   cp workshop/preview.png "${dir_mod_home}"
   cp workshop/preview.png "${dir_42}"
@@ -76,7 +78,6 @@ function make_release() {
       ;;
   esac
 
-  sed -i -r "s/id=${MOD_NAME}/id=${MOD_NAME}_b42/g" "${dir_mod_home}/mod.info"
   sed -i -r "s/id=${MOD_NAME}/id=${MOD_NAME}_b42/g" "${dir_42}/mod.info"
 
   cp workshop/preview.png "${dir_workshop}/preview.png"
