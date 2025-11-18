@@ -1,7 +1,8 @@
-name=Permanent Effects Drinks Test
+name=Moonshine Elixirs Test
 id=PermanentEffectsDrinksTest
+author=outdead
 modversion=0.12.2
-description=Adds drinks with a permanent effect
+description=Moonshine Elixirs (ex Permanent Effects Drinks) adds Moonshine Still and drinks with various effects
 poster=poster.png
 tags=Build 42
 tiledef=MoonshineStill 515

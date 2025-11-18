@@ -81,7 +81,7 @@ function make_release() {
   sed -i -r "s/id=${MOD_NAME}/id=${MOD_NAME}_b42/g" "${dir_42}/mod.info"
 
   cp workshop/preview.png "${dir_workshop}/preview.png"
-  cp workshop/preview.png "${dir_42}"
+  cp workshop/poster.png "${dir_42}"
   cp src/b42 -r "${dir_42}/media"
 
   find "${dir_42}/media" -name '*_test.lua' -type f -delete

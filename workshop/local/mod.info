@@ -1,6 +1,9 @@
-name=Permanent Effects Drinks Local
+name=Moonshine Elixirs Local
 id=PermanentEffectsDrinksLocal
-description=Adds drinks with a permanent effect
+author=outdead
+modversion=0.12.2
+description=Moonshine Elixirs (ex Permanent Effects Drinks) adds Moonshine Still and drinks with various effects
 poster=poster.png
+tags=Build 42
 tiledef=MoonshineStill 515
 pack=MoonshineStill
