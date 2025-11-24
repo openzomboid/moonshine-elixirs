@@ -20,7 +20,7 @@ mkdir -p .tmp/release
 touch .tmp/release/checksum.txt
 
 function make_release_legacy() {
-  local dir_workshop=${RELEASE_DIR_WORKSHOP}
+  local dir_workshop="${RELEASE_DIR_WORKSHOP}"
   local dir_mod_home="${RELEASE_DIR_MOD_HOME}"
 
   local dir_common="${dir_mod_home}/common"
