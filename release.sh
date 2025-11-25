@@ -29,11 +29,11 @@ function make_release_legacy() {
   mkdir -p "${dir_mod_home}"
   mkdir -p "${dir_42}"
 
-  case $STAGE in
+  case ${STAGE} in
     local|test|prod)
-      cp workshop/$STAGE/workshop.txt "${dir_workshop}"
-      cp workshop/$STAGE/mod.info "${dir_mod_home}"
-      cp workshop/$STAGE/mod.info "${dir_42}"
+      cp workshop/${STAGE}/workshop.txt "${dir_workshop}"
+      cp workshop/${STAGE}/mod.info "${dir_mod_home}"
+      cp workshop/${STAGE}/mod.info "${dir_42}"
       ;;
     *)
       echo "incorrect stage" >&2
@@ -69,8 +69,8 @@ function make_release() {
 
   case $STAGE in
     local|test|prod)
-      cp workshop/$STAGE/workshop.txt "${dir_workshop}"
-      cp workshop/$STAGE/mod.info "${dir_42}"
+      cp workshop/${STAGE}/workshop.txt "${dir_workshop}"
+      cp workshop/${STAGE}/mod.info "${dir_42}"
       ;;
     *)
       echo "incorrect stage" >&2
