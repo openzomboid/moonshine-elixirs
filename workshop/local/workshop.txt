@@ -2,5 +2,5 @@ version=1
 id=
 title=Moonshine Elixirs Local
 description=Moonshine Elixirs (ex Permanent Effects Drinks) adds Moonshine Still and drinks with various effects.
-tags=Build 41;Build 42;Multiplayer
+tags=Build 42;Multiplayer
 visibility=unlisted

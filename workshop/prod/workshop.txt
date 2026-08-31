@@ -131,5 +131,5 @@ description=    [*][url=http://steamcommunity.com/profiles/76561198072217531]@Un
 description=[/list]
 description=
 description=[img]https://raw.githubusercontent.com/openzomboid/moonshine-elixirs/master/assets/steam-rate.gif[/img]
-tags=Build 41;Build 42;Multiplayer
+tags=Build 42;Multiplayer
 visibility=public

@@ -1,7 +1,7 @@
 name=Moonshine Elixirs Local
-id=PermanentEffectsDrinksLocal
+id=MoonshineElixirsLocal
 author=outdead
-modversion=0.12.2
+modversion=0.13.0
 description=Moonshine Elixirs (ex Permanent Effects Drinks) adds Moonshine Still and drinks with various effects
 poster=poster.png
 tags=Build 42

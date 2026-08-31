@@ -133,5 +133,5 @@ description=
 description=[img]https://raw.githubusercontent.com/openzomboid/moonshine-elixirs/master/assets/steam-rate.gif[/img]
 description=
 description=Please use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1866992334]Stable version[/url].
-tags=Build 41;Build 42;Multiplayer
+tags=Build 42;Multiplayer
 visibility=unlisted
