@@ -1,3 +1,0 @@
-Recipes_EN = {
-    Recipe_Drink_Exclusive_Alcohol = "Drink exclusive alcohol",
-}

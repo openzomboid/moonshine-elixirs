@@ -1,3 +1,0 @@
-Moodlets_ES = {
-    Moodles_nothing_happened = "No pasó nada",
-}

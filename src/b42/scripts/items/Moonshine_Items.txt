@@ -5,9 +5,8 @@ module Permanent {
 
     item ExclusiveRecipe {
         Weight           = 0.1,
-        Type             = Normal,
+        ItemType         = base:literature,
         Icon             = ExclusiveRecipe,
-        DisplayName      = ExclusiveRecipe,
         DisplayCategory  = SkillBook,
         Tooltip          = Tooltip_item_ExclusiveRecipe,
         StaticModel      = Magazine,
@@ -16,9 +15,8 @@ module Permanent {
 
     item HastyHerring {
         Weight            = 0.5,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = HastyHerring,
-        DisplayName       = HastyHerring,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -44,9 +42,8 @@ module Permanent {
 
     item DoubleHastyHerring {
         Weight            = 1.0,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = DoubleHastyHerring,
-        DisplayName       = DoubleHastyHerring,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -72,9 +69,8 @@ module Permanent {
 
     item GreedyHammer {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = GreedyHammer,
-        DisplayName       = GreedyHammer,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -100,9 +96,8 @@ module Permanent {
 
     item DoubleGreedyHammer {
         Weight            = 1.4,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = DoubleGreedyHammer,
-        DisplayName       = DoubleGreedyHammer,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -128,9 +123,8 @@ module Permanent {
 
     item GreedyAxe {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = GreedyAxe,
-        DisplayName       = GreedyAxe,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -156,9 +150,8 @@ module Permanent {
 
     item DoubleGreedyAxe {
         Weight            = 1.4,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = DoubleGreedyAxe,
-        DisplayName       = DoubleGreedyAxe,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -184,9 +177,8 @@ module Permanent {
 
     item StrayBullet {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = StrayBullet,
-        DisplayName       = StrayBullet,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -212,9 +204,8 @@ module Permanent {
 
     item SlipperyFish {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = SlipperyFish,
-        DisplayName       = SlipperyFish,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -240,9 +231,8 @@ module Permanent {
 
     item SolidAdventurer {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = SolidAdventurer,
-        DisplayName       = SolidAdventurer,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -268,9 +258,8 @@ module Permanent {
 
     item SlenderDoe {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = SlenderDoe,
-        DisplayName       = SlenderDoe,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -296,9 +285,8 @@ module Permanent {
 
     item NicotineOverdose {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = NicotineOverdose,
-        DisplayName       = NicotineOverdose,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_ExclusiveAlcohol,
         CustomEatSound    = DrinkingFromBottleGlass,
@@ -324,9 +312,8 @@ module Permanent {
 
     item GreedySalvation {
         Weight            = 0.7,
-        Type              = Food,
+        ItemType          = base:food,
         Icon              = GreedySalvation,
-        DisplayName       = GreedySalvation,
         DisplayCategory   = Food,
         CustomContextMenu = Drink_GreedySalvation,
         CustomEatSound    = DrinkingFromBottleGlass,
