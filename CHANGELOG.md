@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Fixed b42 multiplayer.
 
+### Changed
+- Changed mod id from PermanentEffectsDrinks to MoonshineElixirs.
+
 ## [v0.12.1] - 2025-02-21
 ### Fixed
 - Fixed Russian tooltips.
