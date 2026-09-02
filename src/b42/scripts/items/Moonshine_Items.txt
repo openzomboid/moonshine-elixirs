@@ -1,4 +1,4 @@
-module Permanent {
+module Moonshine {
     imports {
         Base
     }

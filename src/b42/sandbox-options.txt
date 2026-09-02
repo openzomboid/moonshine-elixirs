@@ -1,47 +1,47 @@
 VERSION = 1,
 
-option Permanent.KeepExperience {
+option Moonshine.KeepExperience {
   type        = boolean,
   default     = false,
-  page        = Permanent,
-  translation = Permanent_KeepExperience
+  page        = Moonshine,
+  translation = Moonshine_KeepExperience
 }
 
-option Permanent.SlenderDoeSetWeight {
+option Moonshine.SlenderDoeSetWeight {
   type        = integer,
   min         = 50,
   max         = 100,
   default     = 80,
-  page        = Permanent,
-  translation = Permanent_SlenderDoeSetWeight
+  page        = Moonshine,
+  translation = Moonshine_SlenderDoeSetWeight
 }
 
-option Permanent.CanBuildMoonshineStill {
+option Moonshine.CanBuildMoonshineStill {
   type        = boolean,
   default     = false,
-  page        = Permanent,
-  translation = Permanent_CanBuildMoonshineStill
+  page        = Moonshine,
+  translation = Moonshine_CanBuildMoonshineStill
 }
 
-option Permanent.AllowBrewingVanillaAlcohol {
+option Moonshine.AllowBrewingVanillaAlcohol {
   type        = boolean,
   default     = true,
-  page        = Permanent,
-  translation = Permanent_AllowBrewingVanillaAlcohol
+  page        = Moonshine,
+  translation = Moonshine_AllowBrewingVanillaAlcohol
 }
 
-option Permanent.AllowBrewingExclusiveAlcohol {
+option Moonshine.AllowBrewingExclusiveAlcohol {
   type        = boolean,
   default     = false,
-  page        = Permanent,
-  translation = Permanent_AllowBrewingExclusiveAlcohol
+  page        = Moonshine,
+  translation = Moonshine_AllowBrewingExclusiveAlcohol
 }
 
-option Permanent.ExclusiveRecipeInZombiesLootChance {
+option Moonshine.ExclusiveRecipeInZombiesLootChance {
   type        = integer,
   min         = 0,
   max         = 100,
   default     = 1,
-  page        = Permanent,
-  translation = Permanent_ExclusiveRecipeInZombiesLootChance
+  page        = Moonshine,
+  translation = Moonshine_ExclusiveRecipeInZombiesLootChance
 }

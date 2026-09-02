@@ -74,14 +74,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Pike"] = 5,
                     ["Base.Butter"] = 5,
                     ["Base.HollyBerry"] = 5,
                     ["Base.Ginseng"] = 10,
                 },
-                result = "Permanent.HastyHerring",
+                result = "Moonshine.HastyHerring",
                 additionalResults = {},
             },
             {
@@ -93,15 +93,15 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
-                    ["Permanent.HastyHerring"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
+                    ["Moonshine.HastyHerring"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Pike"] = 5,
                     ["Base.Yeast"] = 10,
                     ["Base.Ginseng"] = 30,
                     ["Base.Violets"] = 50,
                 },
-                result = "Permanent.DoubleHastyHerring",
+                result = "Moonshine.DoubleHastyHerring",
                 additionalResults = {},
             },
             {
@@ -113,14 +113,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Sledgehammer"] = 1,
                     ["Base.WildEggs"] = 10,
                     ["Base.Salt"] = 5,
                     ["Base.Acorn"] = 5,
                 },
-                result = "Permanent.GreedyHammer",
+                result = "Moonshine.GreedyHammer",
                 additionalResults = {},
             },
             {
@@ -132,15 +132,15 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
-                    ["Permanent.GreedyHammer"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
+                    ["Moonshine.GreedyHammer"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.WildEggs"] = 20,
                     ["Base.Yeast"] = 10,
                     ["Base.Acorn"] = 25,
                     ["Base.Violets"] = 50,
                 },
-                result = "Permanent.DoubleGreedyHammer",
+                result = "Moonshine.DoubleGreedyHammer",
                 additionalResults = {},
             },
             {
@@ -152,14 +152,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Axe"] = 1,
                     ["Base.WildEggs"] = 10,
                     ["Base.Pepper"] = 5,
                     ["Base.Acorn"] = 10,
                 },
-                result = "Permanent.GreedyAxe",
+                result = "Moonshine.GreedyAxe",
                 additionalResults = {},
             },
             {
@@ -171,15 +171,15 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
-                    ["Permanent.GreedyAxe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
+                    ["Moonshine.GreedyAxe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.WildEggs"] = 20,
                     ["Base.Yeast"] = 10,
                     ["Base.Acorn"] = 25,
                     ["Base.Violets"] = 50,
                 },
-                result = "Permanent.DoubleGreedyAxe",
+                result = "Moonshine.DoubleGreedyAxe",
                 additionalResults = {},
             },
             {
@@ -191,14 +191,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Worm"] = 100,
                     ["Base.ShotgunShells"] = 20,
                     ["Base.556Bullets"] = 20,
                     ["Base.308Bullets"] = 20,
                 },
-                result = "Permanent.StrayBullet",
+                result = "Moonshine.StrayBullet",
                 additionalResults = {},
             },
             {
@@ -210,14 +210,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["farming.RemouladeFull"] = 5,
                     ["Base.Butter"] = 10,
                     ["Base.OilOlive"] = 5,
                     ["Base.OilVegetable"] = 5,
                 },
-                result = "Permanent.SlipperyFish",
+                result = "Moonshine.SlipperyFish",
                 additionalResults = {},
             },
             {
@@ -229,14 +229,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Wine2"] = 5,
                     ["farming.Bacon"] = 25,
                     ["Base.Pencil"] = 10,
                     ["Base.WildGarlic2"] = 25,
                 },
-                result = "Permanent.SolidAdventurer",
+                result = "Moonshine.SolidAdventurer",
                 additionalResults = {},
             },
             {
@@ -248,14 +248,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.Wine2"] = 5,
                     ["Base.Wine"] = 5,
                     ["Base.GrapeLeaves"] = 25,
                     ["Base.Milk"] = 5,
                     ["Base.Pickles"] = 10,
                 },
-                result = "Permanent.SlenderDoe",
+                result = "Moonshine.SlenderDoe",
                 additionalResults = {},
             },
             {
@@ -267,14 +267,14 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 10,
                 usedItems = {
-                    ["Permanent.ExclusiveRecipe"] = 1,
+                    ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.WhiskeyFull"] = 5,
                     ["Base.Sugar"] = 10,
                     ["Base.Cigarettes"] = 1000,
                     ["Base.Coffee2"] = 5,
                     ["Base.LemonGrass"] = 25
                 },
-                result = "Permanent.NicotineOverdose",
+                result = "Moonshine.NicotineOverdose",
                 additionalResults = {},
             },
         },
@@ -350,7 +350,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Pike"] = 5,
                         ["Base.Butter"] = 5,
                         ["Base.HollyBerry"] = 5,
@@ -359,7 +359,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.HastyHerring",
+                    result = "Moonshine.HastyHerring",
                     additionalResults = {},
                 },
                 {
@@ -371,8 +371,8 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
-                        ["Permanent.HastyHerring"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
+                        ["Moonshine.HastyHerring"] = 1,
                         ["Base.Pike"] = 10,
                         ["Base.Yeast"] = 10,
                         ["Base.Ginseng"] = 30,
@@ -381,7 +381,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.DoubleHastyHerring",
+                    result = "Moonshine.DoubleHastyHerring",
                     additionalResults = {},
                 },
                 {
@@ -393,7 +393,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Sledgehammer"] = 1,
                         ["Base.WildEggs"] = 10,
                         ["Base.Salt"] = 5,
@@ -402,7 +402,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.GreedyHammer",
+                    result = "Moonshine.GreedyHammer",
                     additionalResults = {},
                 },
                 {
@@ -414,8 +414,8 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
-                        ["Permanent.GreedyHammer"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
+                        ["Moonshine.GreedyHammer"] = 1,
                         ["Base.WildEggs"] = 20,
                         ["Base.Yeast"] = 10,
                         ["Base.Acorn"] = 25,
@@ -424,7 +424,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.DoubleGreedyHammer",
+                    result = "Moonshine.DoubleGreedyHammer",
                     additionalResults = {},
                 },
                 {
@@ -436,7 +436,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Axe"] = 1,
                         ["Base.WildEggs"] = 10,
                         ["Base.Pepper"] = 5,
@@ -445,7 +445,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.GreedyAxe",
+                    result = "Moonshine.GreedyAxe",
                     additionalResults = {},
                 },
                 {
@@ -457,8 +457,8 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
-                        ["Permanent.GreedyAxe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
+                        ["Moonshine.GreedyAxe"] = 1,
                         ["Base.WildEggs"] = 20,
                         ["Base.Yeast"] = 10,
                         ["Base.Acorn"] = 25,
@@ -467,7 +467,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.DoubleGreedyAxe",
+                    result = "Moonshine.DoubleGreedyAxe",
                     additionalResults = {},
                 },
                 {
@@ -479,7 +479,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Worm"] = 100,
                         ["Base.ShotgunShells"] = 20,
                         ["Base.556Bullets"] = 20,
@@ -488,7 +488,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.StrayBullet",
+                    result = "Moonshine.StrayBullet",
                     additionalResults = {},
                 },
                 {
@@ -500,7 +500,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.RemouladeFull"] = 5,
                         ["Base.Butter"] = 10,
                         ["Base.OilOlive"] = 5,
@@ -509,7 +509,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.SlipperyFish",
+                    result = "Moonshine.SlipperyFish",
                     additionalResults = {},
                 },
                 {
@@ -521,7 +521,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Bacon"] = 25,
                         ["Base.Pencil"] = 10,
                         ["Base.WildGarlic2"] = 25,
@@ -530,7 +530,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                         {code = "Base.Wine2", name = "Wine", amount = 5},
                     },
-                    result = "Permanent.SolidAdventurer",
+                    result = "Moonshine.SolidAdventurer",
                     additionalResults = {},
                 },
                 {
@@ -542,7 +542,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.GrapeLeaves"] = 25,
                         ["Base.Pickles"] = 10,
                     },
@@ -551,7 +551,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                         {code = "Base.Wine", name = "Wine", amount = 5},
                         {code = "Base.Milk", name = "CowMilk", amount = 5},
                     },
-                    result = "Permanent.SlenderDoe",
+                    result = "Moonshine.SlenderDoe",
                     additionalResults = {},
                 },
                 {
@@ -563,7 +563,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     time = 300,
                     cookingSkill = 10,
                     usedItems = {
-                        ["Permanent.ExclusiveRecipe"] = 1,
+                        ["Moonshine.ExclusiveRecipe"] = 1,
                         ["Base.Sugar"] = 10,
                         ["Base.CigaretteSingle"] = 100,
                         ["Base.Coffee2"] = 5,
@@ -572,7 +572,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     fluids = {
                         {code = "Base.Whiskey", name = "Whiskey", amount = 5},
                     },
-                    result = "Permanent.NicotineOverdose",
+                    result = "Moonshine.NicotineOverdose",
                     additionalResults = {},
                 },
             },
@@ -655,7 +655,7 @@ end
 
 -- OnClientCommand handles commands from client.
 function MoonshineRecipesServer.OnClientCommand(module, command, character, args)
-    if module ~= "Permanent" then
+    if module ~= "Moonshine" then
         return
     end
 
@@ -663,7 +663,7 @@ function MoonshineRecipesServer.OnClientCommand(module, command, character, args
         local recipes = MoonshineRecipesServer.LoadRecipes()
 
         if isServer() then
-            sendServerCommand(character, "Permanent", "GetRecipes", {recipes = recipes})
+            sendServerCommand(character, "Moonshine", "GetRecipes", {recipes = recipes})
         else
             MoonshineRecipesClient.Recipes = recipes
         end

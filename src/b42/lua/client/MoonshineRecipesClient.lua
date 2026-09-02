@@ -142,7 +142,7 @@ end
 
 -- OnServerCommand handles commands from server.
 function MoonshineRecipesClient.OnServerCommand(module, command, args)
-    if module ~= "Permanent" then
+    if module ~= "Moonshine" then
         return
     end
 
@@ -157,7 +157,7 @@ function MoonshineRecipesClient.OnCreatePlayer(id)
         local character = getPlayer();
 
         if character then
-            sendClientCommand(character, "Permanent", "GetRecipes", {})
+            sendClientCommand(character, "Moonshine", "GetRecipes", {})
 
             Events.OnTick.Remove(MoonshineRecipesClient.RecipesLoadTicker.OnTick)
         end

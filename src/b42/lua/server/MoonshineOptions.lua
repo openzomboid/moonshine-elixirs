@@ -5,5 +5,5 @@
 --
 
 function MoonshineStillBuildEnabled(param)
-    return SandboxVars.Permanent.CanBuildMoonshineStill or isAdmin();
+    return SandboxVars.Moonshine.CanBuildMoonshineStill or isAdmin();
 end

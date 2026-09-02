@@ -16,7 +16,7 @@ end
 
 -- OnZombieDead spawns items in zombie loot on zombie dead.
 function MoonshineZombieLoot.OnZombieDead(corpse)
-    if SandboxVars.Permanent.ExclusiveRecipeInZombiesLootChance <= 0 then
+    if SandboxVars.Moonshine.ExclusiveRecipeInZombiesLootChance <= 0 then
         return
     end
 
@@ -54,10 +54,10 @@ function MoonshineZombieLoot.OnZombieDead(corpse)
     end
 
     if roomName == "bar" then
-        local spawnAllowed = MoonshineZombieLoot.CheckChance(SandboxVars.Permanent.ExclusiveRecipeInZombiesLootChance)
+        local spawnAllowed = MoonshineZombieLoot.CheckChance(SandboxVars.Moonshine.ExclusiveRecipeInZombiesLootChance)
 
         if spawnAllowed then
-            zombieInventory:AddItems("Permanent.ExclusiveRecipe", 1);
+            zombieInventory:AddItems("Moonshine.ExclusiveRecipe", 1);
         end
     end
 end

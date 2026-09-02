@@ -35,18 +35,18 @@ function MoonshineBrewMenu.doContextMenu(player, context, worldobjects, test)
                 spriteName == "MoonshineStill_2" or spriteName == "MoonshineStill_3"
     end
 
-    if isMoonshineStill and (SandboxVars.Permanent.AllowBrewingVanillaAlcohol or SandboxVars.Permanent.AllowBrewingExclusiveAlcohol) then
+    if isMoonshineStill and (SandboxVars.Moonshine.AllowBrewingVanillaAlcohol or SandboxVars.Moonshine.AllowBrewingExclusiveAlcohol) then
         local distilOption = context:addOption(getText("ContextMenu_DistillAlcohol"), worldobjects, nil);
         local distilMenu = context:getNew(context);
         context:addSubMenu(distilOption, distilMenu);
 
-        if SandboxVars.Permanent.AllowBrewingVanillaAlcohol then
+        if SandboxVars.Moonshine.AllowBrewingVanillaAlcohol then
             for _, recipe in pairs(MoonshineRecipesClient.Recipes.Vanilla) do
                 MoonshineBrewMenu.AddBrewOption(distilMenu, character, object, recipe)
             end
         end
 
-        if SandboxVars.Permanent.AllowBrewingExclusiveAlcohol then
+        if SandboxVars.Moonshine.AllowBrewingExclusiveAlcohol then
             local distilExclusiveOption = distilMenu:addOption(getText("ContextMenu_DistillExclusiveAlcohol"), worldobjects, nil);
             local distilExclusiveMenu = distilMenu:getNew(distilMenu);
             context:addSubMenu(distilExclusiveOption, distilExclusiveMenu);
