@@ -4,7 +4,7 @@ option Moonshine.KeepExperience {
   type        = boolean,
   default     = false,
   page        = Moonshine,
-  translation = Moonshine_KeepExperience
+  translation = KeepExperience
 }
 
 option Moonshine.SlenderDoeSetWeight {
@@ -13,28 +13,28 @@ option Moonshine.SlenderDoeSetWeight {
   max         = 100,
   default     = 80,
   page        = Moonshine,
-  translation = Moonshine_SlenderDoeSetWeight
+  translation = SlenderDoeSetWeight
 }
 
 option Moonshine.CanBuildMoonshineStill {
   type        = boolean,
   default     = false,
   page        = Moonshine,
-  translation = Moonshine_CanBuildMoonshineStill
+  translation = CanBuildMoonshineStill
 }
 
 option Moonshine.AllowBrewingVanillaAlcohol {
   type        = boolean,
   default     = true,
   page        = Moonshine,
-  translation = Moonshine_AllowBrewingVanillaAlcohol
+  translation = AllowBrewingVanillaAlcohol
 }
 
 option Moonshine.AllowBrewingExclusiveAlcohol {
   type        = boolean,
   default     = false,
   page        = Moonshine,
-  translation = Moonshine_AllowBrewingExclusiveAlcohol
+  translation = AllowBrewingExclusiveAlcohol
 }
 
 option Moonshine.ExclusiveRecipeInZombiesLootChance {
@@ -43,5 +43,12 @@ option Moonshine.ExclusiveRecipeInZombiesLootChance {
   max         = 100,
   default     = 1,
   page        = Moonshine,
-  translation = Moonshine_ExclusiveRecipeInZombiesLootChance
+  translation = ExclusiveRecipeInZombiesLootChance
+}
+
+option Moonshine.ForceRecreateRecipesFile {
+  type        = boolean,
+  default     = false,
+  page        = Moonshine,
+  translation = ForceRecreateRecipesFile
 }

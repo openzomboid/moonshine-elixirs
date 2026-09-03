@@ -26,19 +26,10 @@ function MoonshineZombieLoot.OnZombieDead(corpse)
 
     local character = getPlayer()
 
-    local x = math.floor(corpse:getX());
-    local y = math.floor(corpse:getY());
-    local z = math.floor(corpse:getZ());
-    local isSprinter = false;
-    local zombieInventory = corpse:getInventory();
-
-    for i = 0, getNumClassFields(corpse) - 1 do
-        local field = getClassField(corpse, i)
-
-        if tostring(field) == "public boolean zombie.characters.IsoZombie.bRunning" then
-            isSprinter = getClassFieldVal(corpse, field);
-        end
-    end
+    local x = math.floor(corpse:getX())
+    local y = math.floor(corpse:getY())
+    local z = math.floor(corpse:getZ())
+    local zombieInventory = corpse:getInventory()
 
     local roomName = ""
     local square = corpse:getSquare()
@@ -57,9 +48,9 @@ function MoonshineZombieLoot.OnZombieDead(corpse)
         local spawnAllowed = MoonshineZombieLoot.CheckChance(SandboxVars.Moonshine.ExclusiveRecipeInZombiesLootChance)
 
         if spawnAllowed then
-            zombieInventory:AddItems("Moonshine.ExclusiveRecipe", 1);
+            zombieInventory:AddItems("Moonshine.ExclusiveRecipe", 1)
         end
     end
 end
 
-Events.OnZombieDead.Add(MoonshineZombieLoot.OnZombieDead);
+Events.OnZombieDead.Add(MoonshineZombieLoot.OnZombieDead)

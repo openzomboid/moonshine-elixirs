@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [v0.13.1] - 2026-09-04
+### Fixed
+- Fixed error on drink NicotineOverdose.
+- Fixed error on drink GreedySalvation.
+- Fixed recipes.
+- Fixed error on zombie killing when ExclusiveRecipeInZombiesLootChance is greater than 0.
+
+### Added
+- Added ForceRecreateRecipesFile sandbox option. You can regenerate /Zomboid/Lua/moonshine-recipes.json file if it is broken.
+
+### Changed
+- Renamed /Zomboid/Lua/moonshine-recipes-b42.json file to /Zomboid/Lua/moonshine-recipes.json.
+
 ## [v0.13.0] - 2026-09-02
 ### Fixed
 - Fixed b42 multiplayer.
@@ -128,7 +141,8 @@ All notable changes to this project will be documented in this file.
 Slender Doe. 
 - Added EN and RU translations.
 
-[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.0...HEAD
+[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.1...HEAD
+[v0.13.1]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.0...v0.13.1
 [v0.13.0]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.12.1...v0.13.0
 [v0.12.1]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.12.0...v0.12.1
 [v0.12.0]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.11.0...v0.12.0

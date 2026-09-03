@@ -5,5 +5,6 @@
   "Sandbox_CanBuildMoonshineStill": "Permitir construir alcohol ilegal todavía",
   "Sandbox_AllowBrewingVanillaAlcohol": "Deje reposar alcohol de vainilla",
   "Sandbox_AllowBrewingExclusiveAlcohol": "Dejar reposar Alcohol exclusivo",
-  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Posibilidad de generar un libro de recetas de Moonshine en todo el botín de zombies"
+  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Posibilidad de generar un libro de recetas de Moonshine en todo el botín de zombies",
+  "Sandbox_ForceRecreateRecipesFile": "Force recreate recipes file (fixes recipes file)"
 }

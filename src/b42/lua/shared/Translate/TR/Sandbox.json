@@ -5,5 +5,6 @@
   "Sandbox_CanBuildMoonshineStill": "Hala kaçak içki yapımına izin ver",
   "Sandbox_AllowBrewingVanillaAlcohol": "Vanilya alkolünün demlenmesine izin ver",
   "Sandbox_AllowBrewingExclusiveAlcohol": "Özel alkol hazırlanmasına izin ver",
-  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Tüm Zombies ganimetlerinde Moonshine Tarif Kitabının ortaya çıkma şansı"
+  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Tüm Zombies ganimetlerinde Moonshine Tarif Kitabının ortaya çıkma şansı",
+  "Sandbox_ForceRecreateRecipesFile": "Force recreate recipes file (fixes recipes file)"
 }

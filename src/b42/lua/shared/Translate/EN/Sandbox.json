@@ -5,5 +5,6 @@
   "Sandbox_CanBuildMoonshineStill": "Allow to build moonshine still",
   "Sandbox_AllowBrewingVanillaAlcohol": "Allow to brew Vanilla alcohol",
   "Sandbox_AllowBrewingExclusiveAlcohol": "Allow to brew Exclusive alcohol",
-  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Chance for spawn Moonshine Recipe Book in Zombies loot"
+  "Sandbox_ExclusiveRecipeInZombiesLootChance": "Chance for spawn Moonshine Recipe Book in Zombies loot",
+  "Sandbox_ForceRecreateRecipesFile": "Force recreate recipes file (fixes recipes file)"
 }
