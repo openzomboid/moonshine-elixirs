@@ -5,10 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [v0.13.2] - Unreleased
+## [v0.13.2] -  2026-09-04
 ### Fixed
 - Fixed Russian translations.
 - Fixed MoonshineStill build translation.
+
+### Removed
+- Removed KeepExperience option coz it not working on b42.
 
 ## [v0.13.1] - 2026-09-04
 ### Fixed
@@ -146,7 +149,7 @@ All notable changes to this project will be documented in this file.
 Slender Doe. 
 - Added EN and RU translations.
 
-[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.1...HEAD
+[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.2...HEAD
 [v0.13.2]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.1...v0.13.2
 [v0.13.1]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.0...v0.13.1
 [v0.13.0]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.12.1...v0.13.0

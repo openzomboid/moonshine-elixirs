@@ -1,12 +1,5 @@
 VERSION = 1,
 
-option Moonshine.KeepExperience {
-  type        = boolean,
-  default     = false,
-  page        = Moonshine,
-  translation = KeepExperience
-}
-
 option Moonshine.SlenderDoeSetWeight {
   type        = integer,
   min         = 50,
