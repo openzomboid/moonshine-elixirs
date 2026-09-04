@@ -9,18 +9,56 @@ local logger = ConsoleLogger and ConsoleLogger.new() or {
     Debug = function(msg) print("ConsoleLogger DEBUG: " .. msg) end
 }
 
-local pzversion = string.sub(getCore():getVersionNumber(), 1, 2)
+local getPreviousXpLvl = function(perk, level)
+    if level == 0 then
+        return 0
+    end
+    level = level - 1
+    local previousXp = perk:getXp1()
+    if level >= 1 then
+        previousXp = previousXp + perk:getXp2()
+    end
+    if level >= 2 then
+        previousXp = previousXp + perk:getXp3()
+    end
+    if level >= 3 then
+        previousXp = previousXp + perk:getXp4()
+    end
+    if level >= 4 then
+        previousXp = previousXp + perk:getXp5()
+    end
+    if level >= 5 then
+        previousXp = previousXp + perk:getXp6()
+    end
+    if level >= 6 then
+        previousXp = previousXp + perk:getXp7()
+    end
+    if level >= 7 then
+        previousXp = previousXp + perk:getXp8()
+    end
+    if level >= 8 then
+        previousXp = previousXp + perk:getXp9()
+    end
+    if level >= 9 then
+        previousXp = previousXp + perk:getXp10()
+    end
+    return previousXp
+end
 
 -- PerkLevelup creates level up for perk.
 function PerkLevelup(character, perkType)
+    logger.Debug("called levelup " .. tostring(perkType) .. " by moonshine drinking for user " .. character:getUsername())
+
+    if isClient() then
+        return
+    end
+
     local perkLevel = character:getPerkLevel(perkType)
 
     if perkLevel < 10 then
-        logger.Debug("levelup by moonshine drinking")
-
         local xp = character:getXp()
         local xpTotal = xp:getXP(perkType)
-        local xpInLevel = xpTotal - ISSkillProgressBar.getPreviousXpLvl(perkType, perkLevel)
+        local xpInLevel = xpTotal - getPreviousXpLvl(perkType, perkLevel)
         if xpInLevel < 0 then
             xpInLevel = 0
         end
@@ -29,8 +67,8 @@ function PerkLevelup(character, perkType)
         character:getXp():setXPToLevel(perkType, character:getPerkLevel(perkType))
         SyncXp(character)
 
-        if SandboxVars.Moonshine.KeepExperience then
-            -- Add all XP: kicks with Type15 xp is large.
+         if SandboxVars.Moonshine.KeepExperience then
+            logger.Debug("add xp: " .. tostring(xpInLevel))
             character:getXp():AddXPNoMultiplier(perkType, xpInLevel)
             SyncXp(character)
         end
