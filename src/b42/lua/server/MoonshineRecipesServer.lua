@@ -23,9 +23,10 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 3,
                 usedItems = {
-                    ["Base.Yeast"] = 1,
-                    ["Base.Corn"] = 1,
-                    ["Base.UnusableWood"] = 1,
+                    ["Base.Yeast"] = 2,
+                    ["Base.Corn"] = 6,
+                    ["Base.CornSeed"] = 24,
+                    ["Base.UnusableWood"] = 4,
                 },
                 fluids = {
                     {code = "Base.BottleCrafted", name = "Water", amount = 1},
@@ -42,8 +43,10 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 3,
                 usedItems = {
+                    ["Base.Yeast"] = 2,
                     ["Base.Sugar"] = 1,
-                    ["Base.Grapes"] = 1,
+                    ["Base.Grapes"] = 4,
+                    ["Base.GrapeLeaves"] = 12,
                 },
                 fluids = {
                     {code = "Base.BottleCrafted", name = "Water", amount = 1},
@@ -60,8 +63,10 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 time = 300,
                 cookingSkill = 3,
                 usedItems = {
+                    ["Base.Yeast"] = 2,
                     ["Base.Sugar"] = 1,
-                    ["Base.Corn"] = 1,
+                    ["Base.Hops"] = 4,
+                    ["Base.HopsDried"] = 12,
                 },
                 fluids = {
                     {code = "Base.BeerEmpty", name = "Water", amount = 1},
@@ -81,10 +86,11 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                 cookingSkill = 10,
                 usedItems = {
                     ["Moonshine.ExclusiveRecipe"] = 1,
-                    ["Base.Pike"] = 5,
+                    ["Base.RailroadSpike"] = 5,
                     ["Base.Butter"] = 5,
                     ["Base.HollyBerry"] = 5,
                     ["Base.Ginseng"] = 10,
+                    ["Base.MarigoldDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -107,6 +113,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.Yeast"] = 10,
                     ["Base.Ginseng"] = 30,
                     ["Base.Violets"] = 50,
+                    ["Base.MintHerbDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -128,6 +135,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.WildEggs"] = 10,
                     ["Base.Salt"] = 5,
                     ["Base.Acorn"] = 5,
+                    ["Base.RosePetalsDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -150,6 +158,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.Yeast"] = 10,
                     ["Base.Acorn"] = 25,
                     ["Base.Violets"] = 50,
+                    ["Base.RyeSheafDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -171,6 +180,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.WildEggs"] = 10,
                     ["Base.Pepper"] = 5,
                     ["Base.Acorn"] = 10,
+                    ["Base.WheatSheafDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -193,6 +203,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.Yeast"] = 10,
                     ["Base.Acorn"] = 25,
                     ["Base.Violets"] = 50,
+                    ["Base.SunflowerHeadDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -214,6 +225,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.ShotgunShells"] = 20,
                     ["Base.556Bullets"] = 20,
                     ["Base.308Bullets"] = 20,
+                    ["Base.BlackSageDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -235,6 +247,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.Butter"] = 10,
                     ["Base.OilOlive"] = 5,
                     ["Base.OilVegetable"] = 5,
+                    ["Base.SageDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -255,6 +268,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.Bacon"] = 25,
                     ["Base.Pencil"] = 10,
                     ["Base.WildGarlic2"] = 25,
+                    ["Base.WildGarlicDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},
@@ -275,6 +289,9 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Moonshine.ExclusiveRecipe"] = 1,
                     ["Base.GrapeLeaves"] = 25,
                     ["Base.Pickles"] = 10,
+                    ["Base.WildGarlic2"] = 10,
+                    ["Base.PepperJalapeno"] = 10,
+                    ["Base.BasilDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Wine2", name = "Wine", amount = 5},
@@ -298,6 +315,7 @@ function MoonshineRecipesServer.GetDefaultRecipes()
                     ["Base.CigaretteSingle"] = 100,
                     ["Base.Coffee2"] = 5,
                     ["Base.LemonGrass"] = 25,
+                    ["Base.RosemaryDried"] = 8,
                 },
                 fluids = {
                     {code = "Base.Whiskey", name = "Whiskey", amount = 5},

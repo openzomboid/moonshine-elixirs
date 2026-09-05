@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [v0.13.3] -  2026-09-05
+### Fixed
+- Fixed some moonshine recipes.
+
+### Changed
+- Added dried items to recipes ingredients.
+
 ## [v0.13.2] -  2026-09-04
 ### Fixed
 - Fixed Russian translations.
@@ -149,7 +156,8 @@ All notable changes to this project will be documented in this file.
 Slender Doe. 
 - Added EN and RU translations.
 
-[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.2...HEAD
+[Unreleased]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.3...HEAD
+[v0.13.3]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.2...v0.13.3
 [v0.13.2]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.1...v0.13.2
 [v0.13.1]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.13.0...v0.13.1
 [v0.13.0]: https://github.com/openzomboid/permanent-effects-drinks/compare/v0.12.1...v0.13.0
